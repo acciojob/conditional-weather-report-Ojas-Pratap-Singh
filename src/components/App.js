@@ -6,11 +6,11 @@ const App = () => {
   return (
     <div>
       {weather.temperature > 20 ? (
-        <span> Temperature: <span style={{color:"red"}}> {weather.temperature} </span> <br/> 
-           condition: {weather.conditions}</span>
+        <p> Temperature: <p style={{color:"red", display:"inline"}}> {weather.temperature} </p> <br/> 
+           condition: {weather.conditions}</p>
       ) : (
-        <span> Temperature: <span style={{color:"blue"}}> {weather.temperature} </span> <br/> 
-           condition: {weather.conditions}</span>
+        <p> Temperature: <p style={{color:"blue"}}> {weather.temperature} </p> <br/> 
+           condition: {weather.conditions}</p>
       )}
     </div>
   );
