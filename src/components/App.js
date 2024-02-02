@@ -9,7 +9,7 @@ const App = () => {
         <p> Temperature: <p style={{color:"red", display:"inline"}}> {weather.temperature} </p> <br/> 
            condition: {weather.conditions}</p>
       ) : (
-        <p> Temperature: <p style={{color:"blue"}}> {weather.temperature} </p> <br/> 
+        <p> Temperature: <p style={{color:"blue", display:"inline"}}> {weather.temperature} </p> <br/> 
            condition: {weather.conditions}</p>
       )}
     </div>
